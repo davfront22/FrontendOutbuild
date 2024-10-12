@@ -1,0 +1,25 @@
+.scrollable-container {
+  max-height: 500px;
+  overflow-y: auto;
+  width: 100%;
+}
+
+.styled-table {
+  width: 100%;
+  table-layout: fixed;
+}
+
+.sticky-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #0D6EFD;
+  color: #fff;
+}
+
+.toast-position {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 1050;
+}
